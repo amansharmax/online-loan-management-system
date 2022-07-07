@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cibil System</title>
+         <link rel = "stylesheet" type = "text/css" href = "signup.css">
+	</head>	
+	<body >
+		<br/>
+        <center>
+		<u><h1>Create your account</h1></center></u>
+		<form name="form1" method="post" action="sign.php" onsubmit="validateEmail(this.email)">
+  <div class="container">
+    <center>
+    <label for="uname"><b>Username &nbsp&nbsp&nbsp   &nbsp </b></label>
+    <input type="text" placeholder="Username" name="uname" required><br/>
+
+    <label for="psw"><b>Password &nbsp&nbsp &nbsp  &nbsp   </b></label>
+    <input type="password" placeholder="Password" name="psw" required><br/>
+
+     <label for="fname"><b>First Name &nbsp&nbsp  &nbsp   </b></label>
+    <input type="text" placeholder="First Name" name="fname" required><br/>
+
+     <label for="lname"><b>Last Name &nbsp&nbsp&nbsp  &nbsp   </b></label>
+    <input type="text" placeholder="Last Name" name="lname" required><br/>
+
+     <label for="email"><b>Email Address</b></label>
+    <input type="text" placeholder="Email Address" name="email" required ><br/>
+
+    <br/><button type="submit" name="btn">Signup</button><br/><br/></center>
+  </div>
+
+</form>
+<script src="validate_functions.js"></script>
+
+	</body>
+</html>
+

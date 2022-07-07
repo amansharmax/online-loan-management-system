@@ -1,0 +1,52 @@
+body {
+	background-color:#f1f1f1;
+    
+}
+form {
+    width:50%;
+    border: 3px solid #f1f1f1;
+    
+     background-color:#f1f1f1;
+}
+
+h1 {
+	color:black;
+}
+p {
+	margin-left:60px;
+}
+h3 {
+	margin-left:60px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left:50px;
+    width: 10%;
+}
+button:hover{
+    background-color: #f0f;
+    transform:scale(1.5);
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
